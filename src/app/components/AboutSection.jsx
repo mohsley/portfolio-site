@@ -9,12 +9,12 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
+        <li>React</li>
         <li>Node.js</li>
         <li>Express</li>
         <li>PostgreSQL</li>
         <li>Sequelize</li>
         <li>JavaScript</li>
-        <li>React</li>
       </ul>
     ),
   },
@@ -22,10 +22,26 @@ const TAB_DATA = [
     title: "Education",
     id: "education",
     content: (
-      <ul className="list-disc pl-2">
-        <li>Fullstack Academy of Code</li>
-        <li>University of California, Santa Cruz</li>
-      </ul>
+      <dl class="max-w-md text-gray-200 divide-y divide-gray-200 dark:text-white dark:divide-gray-700">
+        <div class="flex flex-col pb-3">
+          <dt class="mb-1 text-gray-400 md:text-lg dark:text-primary-400">
+            California State University, Los Angeles
+          </dt>
+          <dd class="text-lg font-semibold">
+            M.Sc. Computer
+            Science&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;2024-2026
+          </dd>
+        </div>
+        <div class="flex flex-col py-3">
+          <dt class="mb-1 text-gray-500 md:text-lg dark:text-primary-400">
+            University of Califorina, Santa Cruz
+          </dt>
+          <dd class="text-lg font-semibold">
+            B.Sc. Computer
+            Science&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;2020-2023
+          </dd>
+        </div>
+      </dl>
     ),
   },
   {
