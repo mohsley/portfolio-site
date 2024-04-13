@@ -13,19 +13,23 @@ const WorkCard = ({
   gitUrl,
   previewUrl,
 }) => {
-  const isDarkMode =
-    React.window.matchMedia &&
-    React.window.matchMedia("(prefers-color-scheme: dark)").matches;
-  let backGroundUrl = "";
-  isDarkMode
-    ? (backGroundUrl = `url(${darkimgUrl})`)
-    : (backGroundUrl = `url(${imgUrl})`);
+  //     isDarkMode
+  //     ? (backGroundUrl = `url(${darkimgUrl})`)
+  //     : (backGroundUrl = `url(${imgUrl})`);
+  //     const [imageMode, setImageMode] = useState(isDarkMode);
+  //   const isDarkMode =
+  //     window.matchMedia &&
+  //    window.matchMedia("(prefers-color-scheme: dark)").matches;
+  //   let backGroundUrl = "";
+  //   isDarkMode
+  //     ? (setImageMode(darkimgUrl) = `url(${darkimgUrl})`)
+  //     : (setImageMode(imgUrl) = `url(${imgUrl})`);
   return (
-    <div>
+    <div className="dark:bg-[#404040] p-2 shadow-2xl rounded-b-xl h-full">
       <div
-        className="h-52 md:h-72 rounded-t-xl relative group"
+        className="h-52 md:h-72 rounded-t-xl relative group shadow-xl"
         style={{
-          background: backGroundUrl,
+          background: `url(${darkimgUrl})`,
           backgroundPosition: "center",
           backgroundSize: "contain",
           backgroundRepeat: "no-repeat",
@@ -46,9 +50,11 @@ const WorkCard = ({
           </Link>
         </div>
       </div>
-      <div className="text-center text-white rounded-b-xl mt-3 bg-[#181818]py-6 px-4">
-        <h5 className="text-xl font-semibold mb-2">{title}</h5>
-        <p className="text-[#ADB7BE]">{description}</p>
+      <div className="text-center text-white rounded-b-xl mt-3 py-6 px-4">
+        <h6 className="text-xl font-semibold mb-2">
+          {title} - {companyName}
+        </h6>
+        <p className="text-white">{description}</p>
       </div>
     </div>
   );

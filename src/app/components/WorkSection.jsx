@@ -8,12 +8,13 @@ const worksData = [
   {
     id: 1,
     title: "Undergraduate Software Engineer Research Assistant",
-    companyName: "University of California, Santa Cruz",
+    companyName: "UCSC",
     dateWorked: "June 2021 – Sep 2022",
     location: "Santa Cruz, California",
     description:
       "As an Undergraduate Software Engineer Research Assistant, I played a pivotal role in various aspects of software development and research. I led the deployment and development of a Full-Stack Website, where I designed and implemented multiple pages with efficient navigation, ensuring a seamless user experience. Additionally, I served as an Agile Scrum Master, overseeing daily stand-ups, managing sprints, and maintaining our project's Trello issue tracker to ensure smooth progress and effective team collaboration. My contributions also extended to research, where I delved into the impact of Distribution Shift within machine-learning platforms, culminating in a contribution to a published paper on this subject.",
-    image: "/images/work/ucsc",
+    image: "/images/work/ucsc.png",
+    darkImage: "/images/work/ucsc-dark.png",
     tag: ["All", "Work"],
     gitUrl: "/",
     previewUrl: "/",
@@ -21,11 +22,11 @@ const worksData = [
   {
     id: 2,
     title: "Full-Stack Web Engineer Intern",
-    companyName: "University of California, Santa Cruz",
-    dateWorked: "June 2021 – Sep 2022",
-    location: "Santa Cruz, California",
+    companyName: "CodeDay Labs",
+    dateWorked: "June 2022 – Sep 2022",
+    location: "Remote",
     description:
-      "As an Undergraduate Software Engineer Research Assistant, I played a pivotal role in various aspects of software development and research. I led the deployment and development of a Full-Stack Website, where I designed and implemented multiple pages with efficient navigation, ensuring a seamless user experience. Additionally, I served as an Agile Scrum Master, overseeing daily stand-ups, managing sprints, and maintaining our project's Trello issue tracker to ensure smooth progress and effective team collaboration. My contributions also extended to research, where I delved into the impact of Distribution Shift within machine-learning platforms, culminating in a contribution to a published paper on this subject.",
+      "I deployed a Full-Stack web application focused on accelerating portfolio generation for users. This involved designing a user-friendly interface using Figma before proceeding with frontend development. I also implemented marshaling and unmarshaling architecture to seamlessly convert data between JSON and DynamoDB formats, enhancing data handling efficiency. Writing engineer design documents was integral to guiding features from the issue tracker all the way to deployment. Additionally, I actively participated in peer-reviewed pull requests and collaborated effectively within a team environment to ensure the success of our projects.",
     image: "/images/work/codeday-logo.png",
     darkImage: "/images/work/codeday-logo-dark.png",
     tag: ["All", "Internship"],
@@ -34,12 +35,12 @@ const worksData = [
   },
   {
     id: 3,
-    title: "Undergraduate Software Engineer Research Assistant",
-    companyName: "University of California, Santa Cruz",
-    dateWorked: "June 2021 – Sep 2022",
-    location: "Santa Cruz, California",
+    title: "Java Full-Stack Engineer Intern",
+    companyName: "CodeDay Labs",
+    dateWorked: "June 2021 – Aug 2021",
+    location: "Remote",
     description:
-      "As an Undergraduate Software Engineer Research Assistant, I played a pivotal role in various aspects of software development and research. I led the deployment and development of a Full-Stack Website, where I designed and implemented multiple pages with efficient navigation, ensuring a seamless user experience. Additionally, I served as an Agile Scrum Master, overseeing daily stand-ups, managing sprints, and maintaining our project's Trello issue tracker to ensure smooth progress and effective team collaboration. My contributions also extended to research, where I delved into the impact of Distribution Shift within machine-learning platforms, culminating in a contribution to a published paper on this subject.",
+      "I designed, implemented, and deployed a resume generator that relied on user input from a multi-page form. This included creating an automated email service to instantly send a PDF copy of the resume, simplifying the application process for users. Furthermore, I ensured seamless communication between clients and servers by following RESTful API structure, enhancing overall system efficiency and user experience.",
     image: "/images/work/codeday-logo.png",
     darkImage: "/images/work/codeday-logo-dark.png",
     tag: ["All", "Internship"],
@@ -48,13 +49,14 @@ const worksData = [
   },
   {
     id: 4,
-    title: "Undergraduate Software Engineer Research Assistant",
-    companyName: "University of California, Santa Cruz",
-    dateWorked: "June 2021 – Sep 2022",
-    location: "Santa Cruz, California",
+    title: "Mobile Full-Stack Application Intern",
+    companyName: "Lyrist",
+    dateWorked: "June 2020 – Aug 2020",
+    location: "Remote",
     description:
-      "As an Undergraduate Software Engineer Research Assistant, I played a pivotal role in various aspects of software development and research. I led the deployment and development of a Full-Stack Website, where I designed and implemented multiple pages with efficient navigation, ensuring a seamless user experience. Additionally, I served as an Agile Scrum Master, overseeing daily stand-ups, managing sprints, and maintaining our project's Trello issue tracker to ensure smooth progress and effective team collaboration. My contributions also extended to research, where I delved into the impact of Distribution Shift within machine-learning platforms, culminating in a contribution to a published paper on this subject.",
+      "I collaborated with a team of three interns on the development of the mobile app Lyrist for iOS and Android platforms. We successfully deployed a significant new feature based on insights from Firebase user analytics, catering to the habits of over 100 daily active users. I took responsibility for extensive internal testing, including the creation of unit tests to ensure robust functionality. Our development approach was agile, guided by prototyping and software specification documents, which facilitated efficient iteration and delivery of high-quality features.",
     image: "/images/work/lyrist",
+    darkImage: "/images/work/lyrist.png",
     tag: ["All", "Internship"],
     gitUrl: "/",
     previewUrl: "/",
@@ -78,7 +80,7 @@ const WorkSection = () => {
   };
 
   return (
-    <section id="works">
+    <section className="p-10 " id="works">
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
         Work Experience
       </h2>
@@ -99,7 +101,7 @@ const WorkSection = () => {
           isSelected={tag === "Internship"}
         />
       </div>
-      <ul ref={ref} className="grid md:grid-rows gap-8 md:gap-12">
+      <ul ref={ref} className="grid md:grid-cols-2 gap-8 md:gap-12">
         {filteredworks.map((work, index) => (
           <motion.li
             key={index}

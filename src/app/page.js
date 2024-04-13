@@ -9,9 +9,9 @@ import AchievementsSection from "./components/AchievementsSection";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col dark:bg-[#0a0a0a] bg-[#d1d5db]">
+    <main className="flex min-h-screen flex-col dark:bg-[#18181b] bg-[#60a5fa]">
       <Navbar />
-      <div className="container mt-24 mx-auto px-12 py-4">
+      <div className="container mt-24 mx-auto px-12 py-4 dark:bg-[#262626] shadow-xl">
         <HeroSection />
         <AchievementsSection />
         <AboutSection />
