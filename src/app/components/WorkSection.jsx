@@ -101,7 +101,7 @@ const WorkSection = () => {
           isSelected={tag === "Internship"}
         />
       </div>
-      <ul ref={ref} className="grid md:grid-cols-2 gap-8 md:gap-12">
+      <ul ref={ref} className="grid md:grid-cols-2 gap-6 md:gap-12 w-full">
         {filteredworks.map((work, index) => (
           <motion.li
             key={index}

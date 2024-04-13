@@ -25,7 +25,7 @@ const WorkCard = ({
   //     ? (setImageMode(darkimgUrl) = `url(${darkimgUrl})`)
   //     : (setImageMode(imgUrl) = `url(${imgUrl})`);
   return (
-    <div className="dark:bg-[#404040] p-2 shadow-2xl rounded-b-xl h-full">
+    <div className="dark:bg-[#404040] p-2 shadow-2xl rounded-b-xl h-full w-full">
       <div
         className="h-52 md:h-72 rounded-t-xl relative group shadow-xl"
         style={{
@@ -50,11 +50,13 @@ const WorkCard = ({
           </Link>
         </div>
       </div>
-      <div className="text-center text-white rounded-b-xl mt-3 py-6 px-4">
-        <h6 className="text-xl font-semibold mb-2">
+      <div className="text-white rounded-b-xl mt-3 md:py-6 md:px-4">
+        <h6 className="text-m md:text-xl font-semibold mb-2">
           {title} - {companyName}
         </h6>
-        <p className="text-white">{description}</p>
+        <p className="text-white text-s md:text-x leading-7 text-align-last-right">
+          {description}
+        </p>
       </div>
     </div>
   );
