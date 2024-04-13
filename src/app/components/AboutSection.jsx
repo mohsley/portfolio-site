@@ -22,9 +22,9 @@ const TAB_DATA = [
     title: "Education",
     id: "education",
     content: (
-      <dl class="max-w-md text-gray-200 divide-y divide-gray-200 dark:text-white dark:divide-gray-200">
+      <dl class="max-w-md text-gray-200 divide-y divide-gray-200 text-white divide-gray-200">
         <div class="flex flex-col pb-3">
-          <dt class="mb-1 text-gray-400 md:text-lg dark:text-primary-400">
+          <dt class="mb-1 text-gray-400 md:text-lg text-primary-400">
             California State University, Los Angeles
           </dt>
           <dd class="text-lg font-semibold">
@@ -33,7 +33,7 @@ const TAB_DATA = [
           </dd>
         </div>
         <div class="flex flex-col py-3">
-          <dt class="mb-1 text-gray-500 md:text-lg dark:text-primary-400">
+          <dt class="mb-1 text-gray-500 md:text-lg text-primary-400">
             University of Califorina, Santa Cruz
           </dt>
           <dd class="text-lg font-semibold">

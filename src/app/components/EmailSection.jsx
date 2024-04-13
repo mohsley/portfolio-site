@@ -83,8 +83,8 @@ const EmailSection = () => {
                 type="email"
                 id="email"
                 required
-                className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5 dark:bg-[#18181b]"
-                placeholder="jacob@google.com"
+                className="bg-[#18191E] border border-[#33353F] placeholder-[#a1a1aa] dark:placeholder-[#9CA2A9] text-white text-sm rounded-lg block w-full p-2.5 bg-[#44403c] dark:bg-[#18181b]"
+                placeholder="you@gmail.com"
               />
             </div>
             <div className="mb-6">
@@ -99,8 +99,8 @@ const EmailSection = () => {
                 type="text"
                 id="subject"
                 required
-                className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5 dark:bg-[#18181b]"
-                placeholder="Just saying hi"
+                className="bg-[#18191E] border border-[#33353F] placeholder-[#a1a1aa] dark:placeholder-[#9CA2A9] text-white text-sm rounded-lg block w-full p-2.5 bg-[#44403c] dark:bg-[#18181b]"
+                placeholder="I'd like to chat about a job oppertunity"
               />
             </div>
             <div className="mb-6">
@@ -113,8 +113,8 @@ const EmailSection = () => {
               <textarea
                 name="message"
                 id="message"
-                className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5 dark:bg-[#18181b]"
-                placeholder="Let's talk about..."
+                className="bg-[#18191E] border border-[#33353F] placeholder-[#a1a1aa] dark:placeholder-[#9CA2A9] text-white text-sm rounded-lg block w-full p-2.5 bg-[#44403c] dark:bg-[#18181b]"
+                placeholder="Hey Mohamad, I'd like to chat about a job oppertunity."
               />
             </div>
             <button

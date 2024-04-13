@@ -8,7 +8,8 @@ const projectsData = [
   {
     id: 0,
     title: "Personal Portfolio Website",
-    description: "A Fullstack Next js application, using ",
+    description:
+      "This is a portfolio website built with Next.js and Tailwind CSS. It showcases my skills, projects, and achievements in an elegant and responsive design.",
     image: "/images/projects/5.png",
     tag: ["All", "Web"],
     gitUrl: "/",
@@ -27,7 +28,8 @@ const projectsData = [
   {
     id: 2,
     title: "AI For Oceans Website",
-    description: "A Fullstack Next js application, using ",
+    description:
+      "A Fullstack website for the AI For Oceans Research Team at UCSC. It was built using Next.JS, Djanago, Express, and Mongo DB.",
     image: "/images/projects/5.png",
     tag: ["All", "Web"],
     gitUrl: "/",
@@ -36,7 +38,8 @@ const projectsData = [
   {
     id: 3,
     title: "Multi-threaded GPU vs CPU K-Nearest Neighbors Particle Simulation ",
-    description: "Project 4 description",
+    description:
+      "I conducted a comprehensive multi-threading litmus test to compare CPU and GPU performance. ",
     image: "/images/projects/5.png",
     tag: ["All", "Web"],
     gitUrl: "/",

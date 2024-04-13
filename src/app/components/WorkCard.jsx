@@ -25,9 +25,9 @@ const WorkCard = ({
   //     ? (setImageMode(darkimgUrl) = `url(${darkimgUrl})`)
   //     : (setImageMode(imgUrl) = `url(${imgUrl})`);
   return (
-    <div className="dark:bg-[#404040] p-2 shadow-2xl rounded-b-xl h-full w-full">
+    <div className="dark:bg-[#404040] bg-[#44403c] p-2 shadow-2xl rounded-b-xl h-full w-full">
       <div
-        className="h-52 md:h-72 rounded-t-xl relative group shadow-xl"
+        className="h-52 md:h-72 rounded-t-xl relative group shadow-xl m-2"
         style={{
           background: `url(${darkimgUrl})`,
           backgroundPosition: "center",
