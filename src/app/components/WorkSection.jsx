@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useRef } from "react";
 import WorkCard from "./workCard";
-import WorkTag from "./workTag";
+import Tag from "./Tag";
 import { motion, useInView } from "framer-motion";
 
 const worksData = [
@@ -85,17 +85,13 @@ const WorkSection = () => {
         Work Experience
       </h2>
       <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
-        <WorkTag
-          onClick={handleTagChange}
-          name="All"
-          isSelected={tag === "All"}
-        />
-        <WorkTag
+        <Tag onClick={handleTagChange} name="All" isSelected={tag === "All"} />
+        <Tag
           onClick={handleTagChange}
           name="Work"
           isSelected={tag === "Work"}
         />
-        <WorkTag
+        <Tag
           onClick={handleTagChange}
           name="Internship"
           isSelected={tag === "Internship"}

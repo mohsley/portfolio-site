@@ -1,6 +1,6 @@
 import React from "react";
 
-const WorkTag = ({ name, onClick, isSelected }) => {
+const ProjectTag = ({ name, onClick, isSelected }) => {
   const buttonStyles = isSelected
     ? "text-white border-primary-500"
     : "text-[#ADB7BE] border-neutral-500 hover:border-white";
@@ -14,4 +14,4 @@ const WorkTag = ({ name, onClick, isSelected }) => {
   );
 };
 
-export default WorkTag;
+export default ProjectTag;
