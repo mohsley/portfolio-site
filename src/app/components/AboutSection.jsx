@@ -72,7 +72,16 @@ const AboutSection = () => {
         <Image src="/images/about-image.png" width={500} height={500} />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4 ">About Me</h2>
-          <p className="text-white lg:text-lg">I am dumb</p>
+          <p className="text-white lg:text-lg">
+            Welcome to my portfolio! <br></br>
+            <br></br>I'm a seasoned engineer and grad student with a passion for
+            making computers do things. I have also dabled in the field of
+            research, conducting a case study and publishing a paper with my
+            team. <br></br>
+            <br></br>You can view my verstatile experience below, if you want to
+            work with me, please use my email form at the bottom of this page
+            and reach out!
+          </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
               selectTab={() => handleTabChange("education")}

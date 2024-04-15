@@ -3,19 +3,21 @@ import Navbar from "./components/Navbar";
 import AboutSection from "./components/AboutSection";
 import WorkSection from "./components/WorkSection";
 import ProjectsSection from "./components/ProjectsSection";
+import ResearchSection from "./components/ResearchSection";
 import EmailSection from "./components/EmailSection";
 import Footer from "./components/Footer";
 import AchievementsSection from "./components/AchievementsSection";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col dark:bg-[#18181b] bg-[#78716c]">
+    <main className="flex min-h-screen flex-col dark:bg-[#18181b] bg-[#57534e]">
       <Navbar />
-      <div className="container mt-24 mx-auto px-12 py-4 dark:bg-[#262626] bg-[#57534e] shadow-xl">
+      <div className="container md:mt-10 mt-20 mx-auto px-12 py-4 dark:bg-[#262626] bg-[#a8a29e] shadow-xl">
         <HeroSection />
         <AchievementsSection />
         <AboutSection />
         <WorkSection />
+        <ResearchSection />
         <ProjectsSection />
         <EmailSection />
       </div>
