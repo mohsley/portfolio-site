@@ -1,6 +1,6 @@
 "use client";
 import React, { useState, useRef } from "react";
-import WorkCard from "./workCard";
+import WorkCard from "./WorkCard";
 import Tag from "./Tag";
 import { motion, useInView } from "framer-motion";
 
