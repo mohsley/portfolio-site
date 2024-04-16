@@ -20,7 +20,7 @@ const HeroSection = () => {
               Mohamad Saleh
             </span>
             <br></br>
-            <span className="text-7xl text-transparent bg-clip-text bg-primary-500 dark:bg-primary-500">
+            <span className="text-7xl text-transparent bg-clip-text bg-[#94a3b8] dark:bg-primary-500">
               I am a{" "}
             </span>
             <br></br>
@@ -46,13 +46,13 @@ const HeroSection = () => {
           <div>
             <Link
               href="/#contact"
-              className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-primary-600 dark:bg-primary-600 hover:bg-primary-800 hover:dark:hover:bg-primary-400 dark:hover:text-black text-white dark:text-white"
+              className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-[#64748b] dark:bg-primary-600 hover:bg-[#94a3b8] dark:hover:bg-primary-400 hover:text-black dark:hover:text-black text-white dark:text-white"
             >
               Hire Me
             </Link>
             <Link
               href="/"
-              className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-primary-600 hover:bg-primary-400 text-white mt-3"
+              className="px-1 inline-block py-1 w-full sm:w-fit rounded-full  bg-[#64748b] hover:bg-[#94a3b8] dark:bg-primary-600 dark:hover:bg-primary-400 text-white mt-3"
             >
               <span className="block dark:bg-[#18181b] bg-[#18181b] hover: rounded-full px-5 py-2">
                 View Resume

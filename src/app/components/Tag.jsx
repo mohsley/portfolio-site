@@ -1,8 +1,8 @@
 import React from "react";
 
-const ProjectTag = ({ name, onClick, isSelected }) => {
+const Tag = ({ name, onClick, isSelected }) => {
   const buttonStyles = isSelected
-    ? "text-white border-primary-500"
+    ? "text-white border-[#64748b] dark:border-primary-500"
     : "text-[#ADB7BE] border-neutral-500 hover:border-white";
   return (
     <button
@@ -14,4 +14,4 @@ const ProjectTag = ({ name, onClick, isSelected }) => {
   );
 };
 
-export default ProjectTag;
+export default Tag;

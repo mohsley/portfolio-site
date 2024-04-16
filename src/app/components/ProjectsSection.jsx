@@ -30,10 +30,10 @@ const projectsData = [
     title: "AI For Oceans Website",
     description:
       "A Fullstack website for the AI For Oceans Research Team at UCSC. It was built using Next.JS, Djanago, Express, and Mongo DB.",
-    image: "/images/projects/5.png",
+    image: "/images/projects/oceans.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/mohsley/ucsc-research-site",
+    previewUrl: "https://ucsc-research-site.vercel.app/",
   },
   {
     id: 3,

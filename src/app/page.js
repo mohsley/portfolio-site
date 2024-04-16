@@ -11,9 +11,9 @@ import SkillsSection from "./components/SkillsSection";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col dark:bg-[#18181b] bg-[#57534e]">
+    <main className="flex min-h-screen flex-col dark:bg-[#18181b] bg-[#a8a29e]">
       <Navbar />
-      <div className="container md:mt-10 mt-20 mx-auto px-12 py-4 dark:bg-[#262626] bg-[#a8a29e] shadow-xl">
+      <div className="container md:mt-10 mt-20 mx-auto px-12 py-4 dark:bg-[#262626] bg-[#57534e] shadow-xl">
         <HeroSection />
         <AchievementsSection />
         <AboutSection />
