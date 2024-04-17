@@ -45,7 +45,7 @@ const EmailSection = () => {
       className="grid md:grid-cols-2 my-12 md:my-12 py-24 gap-4 relative"
     >
       <div className="rounded-full h-80 w-80 z-0 blur-lg absolute top-3/4 -left-4 transform -translate-x-1/2 -translate-1/2"></div>
-      <div className="z-10">
+      <div className="">
         <h5 className="text-xl font-bold text-white my-2">
           Let&apos;s Connect
         </h5>
@@ -100,7 +100,7 @@ const EmailSection = () => {
                 id="subject"
                 required
                 className="bg-[#18191E] border border-[#33353F] placeholder-[#a1a1aa] dark:placeholder-[#9CA2A9] text-white text-sm rounded-lg block w-full p-2.5 bg-[#44403c] dark:bg-[#18181b]"
-                placeholder="I'd like to chat about a job oppertunity"
+                placeholder="I'd like to chat about a job opportunity."
               />
             </div>
             <div className="mb-6">
@@ -114,12 +114,12 @@ const EmailSection = () => {
                 name="message"
                 id="message"
                 className="bg-[#18191E] border border-[#33353F] placeholder-[#a1a1aa] dark:placeholder-[#9CA2A9] text-white text-sm rounded-lg block w-full p-2.5 bg-[#44403c] dark:bg-[#18181b]"
-                placeholder="Hey Mohamad, I'd like to chat about a job oppertunity."
+                placeholder="Hey Mohamad, I'd like to chat about a job opportunity."
               />
             </div>
             <button
               type="submit"
-              className="dark:bg-primary-500 bg-[#64748b] hover:dark:bg-primary-500 hover:bg-[#94a3b8] text-white font-medium py-2.5 px-5 rounded-lg w-full"
+              className="dark:bg-primary-500 bg-[#64748b] hover:dark:bg-primary-500 hover:bg-[#94a3b8] hover:dark:bg-primary-400 hover:text-black text-white font-medium py-2.5 px-5 rounded-lg w-full"
             >
               Send Message
             </button>

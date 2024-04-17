@@ -32,7 +32,7 @@ const TAB_DATA = [
     content: (
       <dl class="max-w-md text-gray-200 divide-y divide-gray-200 text-white divide-gray-200">
         <div class="flex flex-col pb-3">
-          <dt class="mb-1 text-gray-400 md:text-lg text-[#cbd5e1] dark:text-primary-400">
+          <dt class="mb-1 text-slate-400 md:text-lg dark:text-primary-400 font-bold">
             California State University, Los Angeles
           </dt>
           <dd class="text-lg font-semibold">
@@ -41,7 +41,7 @@ const TAB_DATA = [
           </dd>
         </div>
         <div class="flex flex-col py-3">
-          <dt class="mb-1 text-gray-500 md:text-lg text-[#cbd5e1] dark:text-primary-400">
+          <dt class="mb-1 text-slate-400 md:text-lg dark:text-primary-400 font-bold">
             University of Califorina, Santa Cruz
           </dt>
           <dd class="text-lg font-semibold">
@@ -79,7 +79,9 @@ const AboutSection = () => {
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
         <Image src="/images/about-image.png" width={500} height={500} />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
-          <h2 className="text-4xl font-bold text-white mb-4 ">About Me</h2>
+          <h2 className="text-center text-4xl font-bold text-white mb-4 ">
+            About Me
+          </h2>
           <p className="text-white lg:text-lg">
             Welcome to my portfolio! <br></br>
             <br></br>I'm a seasoned engineer and grad student with a passion for
