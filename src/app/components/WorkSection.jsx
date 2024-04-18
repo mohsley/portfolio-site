@@ -80,7 +80,7 @@ const WorkSection = () => {
   };
 
   return (
-    <section className="p-10 " id="works">
+    <section className="p-10 " id="work">
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
         Work Experience
       </h2>

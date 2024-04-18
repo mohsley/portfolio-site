@@ -12,6 +12,10 @@ const navLinks = [
     path: "#about",
   },
   {
+    title: "Work Experience",
+    path: "#work",
+  },
+  {
     title: "Projects",
     path: "#projects",
   },
@@ -58,7 +62,7 @@ const Navbar = () => {
                 <NavLink href={link.path} title={link.title} />
               </li>
             ))}
-            <ColorSwitcher />
+            {/* <ColorSwitcher /> */}
           </ul>
         </div>
       </div>

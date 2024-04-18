@@ -51,7 +51,7 @@ const WorkCard = ({
         </div>
       </div>
       <div className="text-white rounded-b-xl mt-3 md:py-6 md:px-4">
-        <h6 className="text-m md:text-xl font-semibold mb-2">
+        <h6 className="text-m md:text-xl font-bold mb-2">
           {title} - {companyName}
         </h6>
         <p className="text-white text-s md:text-x md:break-keep hyphens-auto">

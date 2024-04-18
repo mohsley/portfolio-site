@@ -22,7 +22,7 @@ const ResearchCard = ({
   //     ? (setImageMode(darkimgUrl) = `url(${darkimgUrl})`)
   //     : (setImageMode(imgUrl) = `url(${imgUrl})`);
   return (
-    <div className="dark:bg-[#404040] bg-[#44403c] p-2 shadow-2xl rounded-b-xl h-full w-full">
+    <div className="text-center dark:bg-[#404040] bg-[#44403c] p-2 shadow-2xl rounded-b-xl h-full w-full">
       <div
         className="h-52 md:h-72 rounded-t-xl relative group shadow-xl m-2"
         style={{
@@ -50,7 +50,7 @@ const ResearchCard = ({
         </div>
       </div>
       <div className="text-white rounded-b-xl mt-3 md:py-6 md:px-4">
-        <h6 className="text-m md:text-xl font-semibold mb-2">{title}</h6>
+        <h6 className="text-m md:text-xl font-bold mb-2">{title}</h6>
         <p className="text-white text-s md:text-x leading-7 text-align-last-right">
           {description}
         </p>

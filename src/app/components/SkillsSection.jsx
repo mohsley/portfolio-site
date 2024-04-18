@@ -7,53 +7,9 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 0,
-    title: "Personal Portfolio Website",
-    description:
-      "This is a portfolio website built with Next.js and Tailwind CSS. It showcases my skills, projects, and achievements in an elegant and responsive design.",
-    image: "/images/projects/portfolio.png",
-    tag: ["All", "Web"],
-    gitUrl: "https://github.com/mohsley/portfolio-site",
-    previewUrl: "/",
-  },
-  {
-    id: 1,
-    title: "Applyotron Job Applying Assistant",
-    description:
-      "An autemouse job applying assistant that helps you apply to jobs faster.",
-    image: "/images/projects/5.png",
-    tag: ["All", "Web"],
-    gitUrl: "https://github.com/mohsley/applyotron",
-    previewUrl: "/",
-  },
-  {
-    id: 2,
-    title: "AI For Oceans Website",
-    description:
-      "A Fullstack website for the AI For Oceans Research Team at UCSC. It was built using Next.JS, Djanago, Express, and Mongo DB.",
-    image: "/images/projects/5.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
-  {
-    id: 3,
-    title: "Multi-threaded GPU vs CPU K-Nearest Neighbors Particle Simulation ",
-    description:
-      "A comprehensive multi-threading litmus test to compare CPU and GPU performance by increasing the number of threads and particles, tracking framerate as a marker of performance.",
-    image: "/images/projects/5.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
-  {
-    id: 4,
-    title: "Multi-threaded HTTP Server",
-    description:
-      "A robust, HTTP complaint, written in C, that can procress multiple requests concurrently, without atomicity or memory violations. This was achived using a thread safe buffer and locks around critical sections.",
-    image: "/images/projects/5.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    icon: "",
+    title: "",
+    tag: ["All", "Frontend"],
   },
 ];
 
