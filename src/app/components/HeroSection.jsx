@@ -16,11 +16,11 @@ const HeroSection = () => {
           className="col-span-8 place-self-center text-center sm:text-left"
         >
           <h1 className="dark:text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
-            <span className="text-transparent bg-clip-text dark:bg-primary-400 bg-[#94a3b8]">
+            <span className="text-transparent bg-clip-text dark:bg-primary-400 bg-[#64748b]">
               Mohamad Saleh
             </span>
             <br></br>
-            <span className="text-7xl text-transparent bg-clip-text bg-[#94a3b8] dark:bg-primary-500">
+            <span className="text-7xl text-transparent bg-clip-text bg-[#64748b] dark:bg-primary-500">
               I am a{" "}
             </span>
             <br></br>

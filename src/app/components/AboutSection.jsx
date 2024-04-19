@@ -30,21 +30,21 @@ const TAB_DATA = [
     title: "Education",
     id: "education",
     content: (
-      <dl class="max-w-md text-gray-200 divide-y divide-gray-200 text-white divide-gray-200">
-        <div class="flex flex-col pb-3">
-          <dt class="mb-1 text-slate-400 md:text-lg dark:text-primary-400 font-bold">
+      <dl className="max-w-md divide-y dark:divide-gray-200 divide-black">
+        <div className="flex flex-col pb-3">
+          <dt className="mb-1 text-slate-500 md:text-lg dark:text-primary-400 font-bold">
             California State University, Los Angeles
           </dt>
-          <dd class="text-lg font-semibold">
+          <dd className="dark:text-white text-black  bbbbbtext-lg font-semibold">
             M.Sc. Computer
             Science&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;2024-2026
           </dd>
         </div>
-        <div class="flex flex-col py-3">
-          <dt class="mb-1 text-slate-400 md:text-lg dark:text-primary-400 font-bold">
+        <div className="flex flex-col py-3">
+          <dt className=" mb-1 text-slate-500 md:text-lg dark:text-primary-400 font-bold">
             University of Califorina, Santa Cruz
           </dt>
-          <dd class="text-lg font-semibold">
+          <dd className="dark:text-white text-black text-lg font-semibold">
             B.Sc. Computer
             Science&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;2020-2023
           </dd>
@@ -75,14 +75,19 @@ const AboutSection = () => {
   };
 
   return (
-    <section className="text-white" id="about">
+    <section className="dark:text-white text-black" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image src="/images/about-image.png" width={500} height={500} />
-        <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
-          <h2 className="text-center text-4xl font-bold text-white mb-4 ">
+        <Image
+          src="/images/about-image.png"
+          alt="about-image"
+          width={500}
+          height={500}
+        />
+        <div className="mt-4 md:mt-0 text-left flex flex-col h-full text-black">
+          <h2 className="text-center text-4xl font-bold dark:text-white text-black mb-4 ">
             About Me
           </h2>
-          <p className="text-white lg:text-lg">
+          <p className="dark:text-white text-black lg:text-lg">
             Welcome to my portfolio! <br></br>
             <br></br>I'm a seasoned engineer and grad student with a passion for
             making computers do things. I have also dabled in the field of
@@ -92,7 +97,7 @@ const AboutSection = () => {
             work with me, please use my email form at the bottom of this page
             and reach out!
           </p>
-          <div className="flex flex-row justify-start mt-8">
+          <div className="text-black dark:text-white flex flex-row justify-start mt-8">
             <TabButton
               selectTab={() => handleTabChange("education")}
               active={tab === "education"}
@@ -101,7 +106,7 @@ const AboutSection = () => {
               Education{" "}
             </TabButton>
           </div>
-          <div className="mt-8">
+          <div className="mt-8 text-black">
             {TAB_DATA.find((t) => t.id === tab).content}
           </div>
         </div>
