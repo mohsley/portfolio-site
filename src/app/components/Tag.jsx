@@ -2,7 +2,7 @@ import React from "react";
 
 const Tag = ({ name, onClick, isSelected }) => {
   const buttonStyles = isSelected
-    ? "dark:text-white text-black border-neutral-800 dark:border-primary-500"
+    ? "dark:text-white text-white bg-[#64748b] dark:border-none dark:bg-primary-600"
     : "text-black border-neutral-400 hover:border-black dark:hover:border-white";
   return (
     <button

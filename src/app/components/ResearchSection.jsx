@@ -28,7 +28,7 @@ const ResearchSection = () => {
 
   return (
     <section className="p-10 " id="research">
-      <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
+      <h2 className="text-center text-4xl font-bold dark:text-white text-black mt-4 mb-8 md:mb-12">
         Research
       </h2>
       <ul ref={ref} className="grid md:grid-cols-2 gap-6 md:gap-12 w-full">

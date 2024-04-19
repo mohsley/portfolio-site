@@ -22,16 +22,11 @@ const ResearchCard = ({
   //     ? (setImageMode(darkimgUrl) = `url(${darkimgUrl})`)
   //     : (setImageMode(imgUrl) = `url(${imgUrl})`);
   return (
-    <div className="text-center dark:bg-[#404040] bg-[#d1d5db] p-2 shadow-2xl rounded-b-xl h-full w-full">
-      <div className="bg-[#64748b] dark:bg-[#404040]">
+    <div className="text-center dark:bg-[#404040] bg-[#e5e7eb] h-full rounded-xl shadow-2xl">
+      <div className="ounded-t-xl">
         <div
-          className="h-52 md:h-72 rounded-t-xl relative group shadow-xl m-2"
-          style={{
-            background: `url(${imgUrl})`,
-            backgroundPosition: "center",
-            backgroundSize: "contain",
-            backgroundRepeat: "no-repeat",
-          }}
+          className="h-52 md:h-72 rounded-xl relative group dark:bg-[#404040] p-2 shadow-xl"
+          style={{ background: `url(${imgUrl})`, backgroundSize: "cover" }}
         >
           <div className="overlay items-center justify-center absolute top-0 left-0 w-full h-full bg-[#181818] bg-opacity-0 hidden group-hover:flex group-hover:bg-opacity-80 transition-all duration-500 ">
             <Link
@@ -51,11 +46,9 @@ const ResearchCard = ({
           </div>
         </div>
       </div>
-      <div className="dark:text-white text-black rounded-b-xl mt-3 md:py-6 md:px-4 ">
-        <h6 className="text-m md:text-xl font-bold mb-2">{title}</h6>
-        <p className="dark:text-white text-black text-s md:text-x leading-7 text-align-last-right">
-          {description}
-        </p>
+      <div className="dark:text-white text-black rounded-xl mt-3 dark:bg-[#404040] bg-[#e5e7eb] p-2 rounded-xl py-6 px-4">
+        <h5 className="text-xl font-bold mb-2">{title}</h5>
+        <p className="dark:text-white text-black">{description}</p>
       </div>
     </div>
   );
