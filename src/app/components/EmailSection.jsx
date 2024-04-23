@@ -42,7 +42,7 @@ const EmailSection = () => {
   return (
     <section
       id="contact"
-      className="grid md:grid-cols-2 my-12 md:my-12 py-24 gap-4 relative dark:text-white text-black"
+      className="grid md:grid-cols-2 my-12 md:my-12 py-24 gap-4 relative dark:text-white text-black p-20"
     >
       <div className="rounded-full h-80 w-80 z-0 blur-lg absolute top-3/4 -left-4 transform -translate-x-1/2 -translate-1/2"></div>
       <div className="">
@@ -51,20 +51,23 @@ const EmailSection = () => {
         </h5>
         <p className="dark:text-[#ADB7BE] mb-4 max-w-md">
           {" "}
-          I&apos;m currently looking for new opportunities, my inbox is always
-          open. Whether you have a question or just want to say hi, I&apos;ll
-          try my best to get back to you!
+          I&apos;m currently looking for new opportunities, send me an email and
+          I&apos;ll get back to you as soon as possible!
         </p>
-        <div className="socials flex flex-row gap-2">
+        <div className="socials flex flex-row gap-2 ">
           <Link href="github.com">
             <Image
-              className="bg-[#64748b] dark:bg-primary-500"
+              className="bg-[#404040] dark:bg-[#18181b]  rounded-full"
               src={GithubIcon}
               alt="Github Icon"
             />
           </Link>
           <Link href="linkedin.com">
-            <Image src={LinkedinIcon} alt="Linkedin Icon" />
+            <Image
+              className="bg-[#404040] dark:bg-[#18181b] rounded-lg"
+              src={LinkedinIcon}
+              alt="Linkedin Icon"
+            />
           </Link>
         </div>
       </div>
@@ -104,7 +107,7 @@ const EmailSection = () => {
                 id="subject"
                 required
                 className="bg-[#FFFFFF] border border-[#33353F] placeholder-[#a3a3a3] dark:placeholder-[#9CA2A9] dark:text-white text-black text-sm rounded-lg block w-full p-2.5 dark:bg-[#18181b]"
-                placeholder="I'd like to chat about a job opportunity."
+                placeholder="Job Opportunity"
               />
             </div>
             <div className="mb-6">
@@ -118,7 +121,7 @@ const EmailSection = () => {
                 name="message"
                 id="message"
                 className="bg-[#FFFFFF] border border-[#33353F] placeholder-[#a3a3a3] dark:placeholder-[#9CA2A9] dark:text-white text-black text-sm rounded-lg block w-full p-2.5 dark:bg-[#18181b]"
-                placeholder="Hey Mohamad, I'd like to chat about a job opportunity."
+                placeholder="Hey Mohamad, I have a job for you!"
               />
             </div>
             <button

@@ -2,6 +2,7 @@
 import React, { useTransition, useState } from "react";
 import Image from "next/image";
 import TabButton from "./TabButton";
+import AchievementsSection from "./AchievementsSection";
 
 const TAB_DATA = [
   {

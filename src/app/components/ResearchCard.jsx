@@ -25,7 +25,7 @@ const ResearchCard = ({
     <div className="text-center dark:bg-[#404040] bg-[#e5e7eb] h-full rounded-xl shadow-2xl">
       <div className="ounded-t-xl">
         <div
-          className="h-52 md:h-72 rounded-xl relative group dark:bg-[#404040] p-2 shadow-xl"
+          className="h-52 md:h-72 rounded-t-xl relative group dark:bg-[#404040] p-2"
           style={{ background: `url(${imgUrl})`, backgroundSize: "cover" }}
         >
           <div className="overlay items-center justify-center absolute top-0 left-0 w-full h-full bg-[#181818] bg-opacity-0 hidden group-hover:flex group-hover:bg-opacity-80 transition-all duration-500 ">
