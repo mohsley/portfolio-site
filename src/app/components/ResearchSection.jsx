@@ -27,7 +27,7 @@ const ResearchSection = () => {
   };
 
   return (
-    <section className="p-10 " id="research">
+    <section className="pb-10 " id="research">
       <h2 className="text-center text-4xl font-bold dark:text-white text-black mt-4 mb-8 md:mb-12">
         Research
       </h2>

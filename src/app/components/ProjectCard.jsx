@@ -6,8 +6,12 @@ const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl }) => {
   return (
     <div className="text-center dark:bg-[#404040] bg-[#e5e7eb] rounded-xl h-full shadow-2xl">
       <div
-        className="h-52 md:h-72 rounded-t-xl relative group dark:bg-[#404040] p-2 shadow-xl"
-        style={{ background: `url(${imgUrl})`, backgroundSize: "cover" }}
+        className="h-52 md:h-72 rounded-t-xl relative group dark:bg-[#404040] shadow-xl"
+        style={{
+          background: `url(${imgUrl})`,
+          backgroundPosition: "center",
+          backgroundSize: "cover",
+        }}
       >
         <div className="overlay items-center justify-center absolute top-0 left-0 w-full h-full bg-[#181818] bg-opacity-0 hidden group-hover:flex group-hover:bg-opacity-80 transition-all duration-500 ">
           <Link
@@ -26,7 +30,7 @@ const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl }) => {
           </Link>
         </div>
       </div>
-      <div className="dark:text-white text-black rounded-b-xl mt-3 dark:bg-[#404040] bg-[#e5e7eb] p-2 rounded-b-xl py-6 px-4">
+      <div className="dark:text-white text-black rounded-b-xl mt-3 dark:bg-[#404040] bg-[#e5e7eb] p-2 rounded-b-xl pb-6 pt-3 px-4">
         <h5 className="text-xl font-bold mb-2">{title}</h5>
         <p className="dark:text-white text-black">{description}</p>
       </div>

@@ -37,7 +37,7 @@ const WorkCard = ({
           }}
         ></div>
       </div>
-      <div className="dark:text-white text-black rounded-b-xl mt-3 dark:bg-[#404040] bg-[#e5e7eb] p-2 rounded-b-xl py-6 px-4">
+      <div className="dark:text-white text-black rounded-b-xl mt-3 dark:bg-[#404040] bg-[#e5e7eb] p-2 rounded-b-xl pt-3 pb-6 px-2 hyphens-auto">
         <h5 className="text-xl font-bold mb-2">{title}</h5>
         <p className="dark:text-white text-black">{description}</p>
       </div>

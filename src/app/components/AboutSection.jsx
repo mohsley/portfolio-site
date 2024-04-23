@@ -36,7 +36,7 @@ const TAB_DATA = [
           <dt className="mb-1 text-slate-500 md:text-lg dark:text-primary-400 font-bold">
             California State University, Los Angeles
           </dt>
-          <dd className="dark:text-white text-black  bbbbbtext-lg font-semibold">
+          <dd className="dark:text-white text-black text-lg font-semibold">
             M.Sc. Computer
             Science&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;2024-2026
           </dd>
@@ -47,7 +47,7 @@ const TAB_DATA = [
           </dt>
           <dd className="dark:text-white text-black text-lg font-semibold">
             B.Sc. Computer
-            Science&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;2020-2023
+            Science&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;2020-2023
           </dd>
         </div>
       </dl>
@@ -98,7 +98,7 @@ const AboutSection = () => {
             work with me, please use my email form at the bottom of this page
             and reach out!
           </p>
-          <div className="text-black dark:text-white flex flex-row justify-start mt-8">
+          <div className="flex flex-row justify-start mt-8">
             <TabButton
               selectTab={() => handleTabChange("education")}
               active={tab === "education"}
@@ -107,7 +107,7 @@ const AboutSection = () => {
               Education{" "}
             </TabButton>
           </div>
-          <div className="mt-8 text-black">
+          <div className="mt-8">
             {TAB_DATA.find((t) => t.id === tab).content}
           </div>
         </div>

@@ -19,17 +19,17 @@ const projectsData = [
     id: 1,
     title: "Applyotron Job Applying Assistant",
     description:
-      "An autemouse job applying assistant that helps you apply to jobs faster.",
+      "An automated job applying assistant that helps you apply to jobs faster.",
     image: "/images/projects/5.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/mohsley/applyotron",
-    previewUrl: "/",
+    previewUrl: "n/a",
   },
   {
     id: 2,
     title: "AI For Oceans Website",
     description:
-      "A Fullstack website for the AI For Oceans Research Team at UCSC. It was built using Next.JS, Djanago, Express, and Mongo DB.",
+      "A Fullstack website for the AI For Oceans Research Team at UCSC. It was built using Next.JS, Django, Express, and MongoDB.",
     image: "/images/projects/oceans.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/mohsley/ucsc-research-site",
@@ -37,23 +37,63 @@ const projectsData = [
   },
   {
     id: 3,
-    title: "Multi-threaded GPU vs CPU K-Nearest Neighbors Particle Simulation ",
+    title: "Trivia Mobile App",
     description:
-      "A comprehensive multi-threading litmus test to compare CPU and GPU performance by increasing the number of threads and particles, tracking framerate as a marker of performance.",
-    image: "/images/projects/5.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+      "A simple trivia program that uses a JSON array to pull 900 questions off the internet. It maintains score, offers feedback on correct/incorrect answers, and contains basic animations. The UI consists of views, buttons, custom font, and a beautiful color scheme.",
+    image: "/images/projects/trivia.png",
+    tag: ["All", "Mobile"],
+    gitUrl: "https://github.com/mohsley/trivia-app",
+    previewUrl: "n/a",
   },
   {
     id: 4,
+    title: "Multi-threaded Distrubuted Password Cracker",
+    description:
+      "Using a distributed system consisting of 4 servers, each with 24 cores available, I developed a multi-threaded password cracker in C that could crack simple passwords of n length. This project showcases my expertise in parallel computing, distributed systems, and low-level programming.",
+    image: "/images/projects/password.png",
+    tag: ["All", "School"],
+    gitUrl: "/",
+    previewUrl: "n/a",
+  },
+  {
+    id: 5,
+    title: "Multi-threaded GPU vs CPU K-Nearest Neighbors Particle Simulation ",
+    description:
+      "A comprehensive multi-threading litmus test that compared parallelized CPU performance vs GPU performance in a vigorous particle simulation, tracking framerate as a marker of performance.",
+    image: "/images/projects/particle.png",
+    tag: ["All", "School"],
+    gitUrl: "/",
+    previewUrl: "n/a",
+  },
+  {
+    id: 6,
     title: "Multi-threaded HTTP Server",
     description:
-      "A robust, HTTP complaint, written in C, that can procress multiple requests concurrently, without atomicity or memory violations. This was achived using a thread safe buffer and locks around critical sections.",
-    image: "/images/projects/5.png",
-    tag: ["All", "Web"],
+      "Developed a robust, HTTP-compliant server in C capable of handling multiple requests concurrently, showcasing expertise in low-level programming, network protocols, and thread safety through the use of thread-safe buffers and locks to prevent atomicity and memory violations.",
+    image: "/images/projects/webserver.png",
+    tag: ["All", "School"],
     gitUrl: "/",
-    previewUrl: "/",
+    previewUrl: "n/a",
+  },
+  {
+    id: 7,
+    title: "Mini-net Python Firewall Protected Network Simulation",
+    description:
+      "I designed and implemented a Python-based network simulation with the ability to isolate nodes on infection. This project showcases my skills in cybersecurity, and Python programming for creating secure network environments and mitigating threats effectively.",
+    image: "/images/projects/network.png",
+    tag: ["All", "School"],
+    gitUrl: "/",
+    previewUrl: "n/a",
+  },
+  {
+    id: 8,
+    title: "Slack Mobile Application Clone",
+    description:
+      "Developed a feature complete Slack clone three times, using Kotlin for Android, Swift for IOS, and then a cross platofrm verision using React-Native. Each verision had end-to-end testing and full code coverage using Junit, XCTest, and Jest.",
+    image: "/images/projects/slack.png",
+    tag: ["All", "School"],
+    gitUrl: "/",
+    previewUrl: "n/a",
   },
   // {
   //   id: 7,
@@ -103,7 +143,7 @@ const ProjectsSection = () => {
   };
 
   return (
-    <section id="projects">
+    <section className="pb-10" id="projects">
       <h2 className="text-center text-black text-4xl font-bold dark:text-white mt-4 mb-8 md:mb-12">
         Projects
       </h2>
@@ -114,6 +154,11 @@ const ProjectsSection = () => {
           onClick={handleTagChange}
           name="Mobile"
           isSelected={tag === "Mobile"}
+        />
+        <Tag
+          onClick={handleTagChange}
+          name="School"
+          isSelected={tag === "School"}
         />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
