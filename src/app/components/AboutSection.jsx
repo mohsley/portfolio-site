@@ -99,11 +99,11 @@ const AboutSection = () => {
             computers do things that make our lives easier. <br></br> <br></br>
             My professional journey includes valuable experience working on
             Fullstack websites, mobile applications, and multi-threaded
-            distributed applications. <br></br> <br></br> In addition, I
-            contributed to a multi-disciplinary research project funded by the
-            National Science Foundation, conducting a comprehensive case study
-            and contributed to a published paper alongside my esteemed
-            colleagues <br></br>
+            distributed applications. <br></br> <br></br> In addition, I was
+            part of a multi-disciplinary research team funded by the National
+            Science Foundation, where I conducted a thorough case study and
+            collaborated with esteemed colleagues to co-author a paper that was
+            published in the Frontiers of Marine Science journal. <br></br>
             <br></br>You can view my versatile experience below. If you're
             interested in working together, feel free to reach out--you can
             contact me at the bottom of this page. I look forward to connecting
