@@ -9,7 +9,7 @@ const projectsData = [
     id: 0,
     title: "Personal Portfolio Website",
     description:
-      "This is a portfolio website built with Next.js and Tailwind CSS. It showcases my skills, projects, and achievements in an elegant and responsive design.",
+      "My portfolio, built with Next.js and Tailwind CSS. It showcases my work history, projects, and achievements in an elegant and responsive design, as well as dynamic theme switching with the light/dark mode button, and several smooth animations.",
     image: "/images/projects/portfolio.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/mohsley/portfolio-site",
@@ -29,25 +29,15 @@ const projectsData = [
     id: 2,
     title: "AI For Oceans Website",
     description:
-      "A Fullstack website for the AI For Oceans Research Team at UCSC. It was built using Next.JS, Django, Express, and MongoDB.",
+      "A Fullstack website for the AI For Oceans Research Team at UCSC. It was built using Next.JS, Django, Express, and MongoDB. It showcases a content-filled learning tool explaining the different components used in using machine learning technology for marine science.",
     image: "/images/projects/oceans.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/mohsley/ucsc-research-site",
     previewUrl: "https://ucsc-research-site.vercel.app/",
   },
   {
-    id: 3,
-    title: "Trivia Mobile App",
-    description:
-      "A simple trivia program that uses a JSON array to pull 900 questions off the internet. It maintains score, offers feedback on correct/incorrect answers, and contains basic animations. The UI consists of views, buttons, custom font, and a beautiful color scheme.",
-    image: "/images/projects/trivia.png",
-    tag: ["All", "Mobile"],
-    gitUrl: "https://github.com/mohsley/trivia-app",
-    previewUrl: "n/a",
-  },
-  {
     id: 4,
-    title: "Multi-threaded Distrubuted Password Cracker",
+    title: "Multi-threaded Distributed Password Cracker",
     description:
       "Using a distributed system consisting of 4 servers, each with 24 cores available, I developed a multi-threaded password cracker in C that could crack simple passwords of n length. This project showcases my expertise in parallel computing, distributed systems, and low-level programming.",
     image: "/images/projects/password.png",
@@ -59,7 +49,7 @@ const projectsData = [
     id: 5,
     title: "Multi-threaded GPU vs CPU K-Nearest Neighbors Particle Simulation ",
     description:
-      "A comprehensive multi-threading litmus test that compared parallelized CPU performance vs GPU performance in a vigorous particle simulation, tracking framerate as a marker of performance.",
+      "A comprehensive multi-threading litmus test that compared parallelized CPU performance vs GPU performance in a vigorous particle simulation, tracking framerate as a marker of performance. I used the distance formula to determine nearest particle, linear algebra using matrices, and vector normalization.",
     image: "/images/projects/particle.png",
     tag: ["All", "School"],
     gitUrl: "/",
@@ -69,7 +59,7 @@ const projectsData = [
     id: 6,
     title: "Multi-threaded HTTP Server",
     description:
-      "Developed a robust, HTTP-compliant server in C capable of handling multiple requests concurrently, showcasing expertise in low-level programming, network protocols, and thread safety through the use of thread-safe buffers and locks to prevent atomicity and memory violations.",
+      "Developed a robust, HTTP-compliant server in C, using regex to parse every incoming header, and is capable of handling multiple requests concurrently. This project showcases my expertise in low-level programming, network protocols, and thread safety through the use of thread-safe buffers and locks to prevent atomicity and memory violations.",
     image: "/images/projects/webserver.png",
     tag: ["All", "School"],
     gitUrl: "/",
@@ -89,10 +79,20 @@ const projectsData = [
     id: 8,
     title: "Slack Mobile Application Clone",
     description:
-      "Developed a feature complete Slack clone three times, using Kotlin for Android, Swift for IOS, and then a cross platofrm verision using React-Native. Each verision had end-to-end testing and full code coverage using Junit, XCTest, and Jest.",
+      "Developed a feature complete Slack clone using three different platforms, using Kotlin for Android, Swift for IOS, and then a cross platform version using React-Native. Each version had end-to-end testing and full code coverage using Junit, XCTest, and Jest.",
     image: "/images/projects/slack.png",
     tag: ["All", "School"],
     gitUrl: "/",
+    previewUrl: "n/a",
+  },
+  {
+    id: 3,
+    title: "Trivia Mobile App",
+    description:
+      "A simple trivia program that uses a JSON array to pull 900 questions off the internet. It maintains score, offers feedback on correct/incorrect answers, and contains basic animations. The UI consists of views, buttons, custom font, and a beautiful color scheme.",
+    image: "/images/projects/trivia.png",
+    tag: ["All", "Mobile"],
+    gitUrl: "https://github.com/mohsley/trivia-app",
     previewUrl: "n/a",
   },
   // {

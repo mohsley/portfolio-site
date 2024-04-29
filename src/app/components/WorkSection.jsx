@@ -12,7 +12,7 @@ const worksData = [
     dateWorked: "June 2021 – Sep 2022",
     location: "Santa Cruz, California",
     description:
-      "As an Undergraduate Software Engineer Research Assistant, I played a pivotal role in various aspects of software development and research. I led the deployment and development of a Full-Stack Website, where I designed and implemented multiple pages with efficient navigation, ensuring a seamless user experience. Additionally, I served as an Agile Scrum Master, overseeing daily stand-ups, managing sprints, and maintaining our project's Trello issue tracker to ensure smooth progress and effective team collaboration. My contributions also extended to research, where I delved into the impact of Distribution Shift within machine-learning platforms, culminating in a contribution to a published paper on this subject.",
+      "As an Undergraduate Software Engineer Research Assistant, I played a pivotal role in various aspects of software development and research. I led the deployment and development of a Full-Stack Website, where I designed and implemented multiple pages with efficient navigation, ensuring a seamless user experience. Additionally, I served as an Agile Scrum Master, overseeing daily stand-ups, managing sprints, and maintaining our project's Trello issue tracker to ensure smooth progress and effective team collaboration. My contributions also extended to research, where I delved into the impact of Distribution Shift within machine-learning platforms, culminating in a published paper on the subject.",
     image: "/images/work/ucsc.png",
     darkImage: "/images/work/ucsc-dark.png",
     tag: ["All", "Work"],

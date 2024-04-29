@@ -90,15 +90,16 @@ const AboutSection = () => {
           </h2>
           <p className="dark:text-white text-black lg:text-lg">
             Welcome to my portfolio! <br></br>
-            <br></br>I'm a seasoned engineer and grad student with a passion for
-            making computers do things. I have also dabled in the field of
-            research, conducting a case study and publishing a paper with my
-            team. <br></br>
-            <br></br>You can view my verstatile experience below, if you want to
-            work with me, please use my email form at the bottom of this page
-            and reach out!
+            <br></br>I'm an experienced engineer, currently going through grad
+            school, with a passion for making computers solve problems. I have
+            also dabbled in the field of research, conducting a case study and
+            publishing a paper with my team. <br></br>
+            <br></br>You can view my verstatile experience below. If you're
+            interested in working togetrher, feel free to reach out--you can
+            contact me at the bottom of this page. I look foward to connecting
+            with you.
           </p>
-          <div className="flex flex-row justify-start mt-8">
+          <div className="text-black dark:text-white flex flex-row justify-start mt-8">
             <TabButton
               selectTab={() => handleTabChange("education")}
               active={tab === "education"}
@@ -107,7 +108,7 @@ const AboutSection = () => {
               Education{" "}
             </TabButton>
           </div>
-          <div className="mt-8">
+          <div className="mt-8 text-black dark:text-white">
             {TAB_DATA.find((t) => t.id === tab).content}
           </div>
         </div>
