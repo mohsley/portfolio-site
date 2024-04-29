@@ -16,8 +16,8 @@ export async function POST(req, res) {
         <>
           <p>
             Greetings! <br></br> <br></br>This is an automated message letting
-            you know that I recived your message, I will get back to you
-            shortly.<br></br> <br></br>Thanks for reaching out, <br></br>{" "}
+            you know that I recived your message, and that I will get back to
+            you shortly.<br></br> <br></br>Thanks for reaching out, <br></br>{" "}
             <br></br>Mohamad Saleh
           </p>
           <center>Your Original Message Below</center>
