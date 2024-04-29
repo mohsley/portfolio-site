@@ -20,6 +20,8 @@ export async function POST(req, res) {
             shortly.<br></br> <br></br>Thanks for reaching out, <br></br>{" "}
             <br></br>Mohamad Saleh
           </p>
+          <center>Your Original Message Below</center>
+          <hr />
           <h1>{subject}</h1>
           <p>{message}</p>
         </>
