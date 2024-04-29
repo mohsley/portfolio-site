@@ -15,16 +15,16 @@ const projectsData = [
     gitUrl: "https://github.com/mohsley/portfolio-site",
     previewUrl: "/",
   },
-  {
-    id: 1,
-    title: "Applyotron Job Applying Assistant",
-    description:
-      "An automated job applying assistant that helps you apply to jobs faster.",
-    image: "/images/projects/5.png",
-    tag: ["All", "Web"],
-    gitUrl: "https://github.com/mohsley/applyotron",
-    previewUrl: "n/a",
-  },
+  // {
+  //   id: 1,
+  //   title: "Applyotron Job Applying Assistant",
+  //   description:
+  //     "An automated job applying assistant that helps you apply to jobs faster.",
+  //   image: "/images/projects/5.png",
+  //   tag: ["All", "Web"],
+  //   gitUrl: "https://github.com/mohsley/applyotron",
+  //   previewUrl: "n/a",
+  // },
   {
     id: 2,
     title: "AI For Oceans Website",
