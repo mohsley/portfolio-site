@@ -14,9 +14,13 @@ export async function POST(req, res) {
       subject: subject,
       react: (
         <>
+          <p>
+            Greetings! <br></br> <br></br>This is an automated message letting
+            you know that I recived your message, I will get back to you
+            shortly.<br></br> <br></br>Thanks for reaching out, <br></br>{" "}
+            <br></br>Mohamad Saleh
+          </p>
           <h1>{subject}</h1>
-          <p>Thank you for contacting me!</p>
-          <p>New message submitted:</p>
           <p>{message}</p>
         </>
       ),
