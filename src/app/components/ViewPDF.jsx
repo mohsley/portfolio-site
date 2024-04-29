@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import ReactDOM from "react-dom";
 import { Viewer } from "@react-pdf-viewer/core";
-
 import "@react-pdf-viewer/core/lib/styles/index.css";
 
 const ModalExample = ({ fileUrl }) => {

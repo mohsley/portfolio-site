@@ -42,8 +42,8 @@ const projectsData = [
       "Using a distributed system consisting of 4 servers, each with 24 cores available, I developed a multi-threaded password cracker in C that could crack simple passwords of n length. This project showcases my expertise in parallel computing, distributed systems, and low-level programming.",
     image: "/images/projects/password.png",
     tag: ["All", "School"],
-    gitUrl: "/",
-    previewUrl: "n/a",
+    gitUrl: null,
+    previewUrl: null,
   },
   {
     id: 5,
@@ -52,8 +52,8 @@ const projectsData = [
       "A comprehensive multi-threading litmus test that compared parallelized CPU performance vs GPU performance in a vigorous particle simulation, tracking framerate as a marker of performance. I used the distance formula to determine nearest particle, linear algebra using matrices, and vector normalization.",
     image: "/images/projects/particle.png",
     tag: ["All", "School"],
-    gitUrl: "/",
-    previewUrl: "n/a",
+    gitUrl: null,
+    previewUrl: null,
   },
   {
     id: 6,
@@ -62,8 +62,8 @@ const projectsData = [
       "Developed a robust, HTTP-compliant server in C, using regex to parse every incoming header, and is capable of handling multiple requests concurrently. This project showcases my expertise in low-level programming, network protocols, and thread safety through the use of thread-safe buffers and locks to prevent atomicity and memory violations.",
     image: "/images/projects/webserver.png",
     tag: ["All", "School"],
-    gitUrl: "/",
-    previewUrl: "n/a",
+    gitUrl: null,
+    previewUrl: null,
   },
   {
     id: 7,
@@ -72,8 +72,8 @@ const projectsData = [
       "I designed and implemented a Python-based network simulation with the ability to isolate nodes on infection. This project showcases my skills in cybersecurity, and Python programming for creating secure network environments and mitigating threats effectively.",
     image: "/images/projects/network.png",
     tag: ["All", "School"],
-    gitUrl: "/",
-    previewUrl: "n/a",
+    gitUrl: null,
+    previewUrl: null,
   },
   {
     id: 8,
@@ -82,8 +82,8 @@ const projectsData = [
       "Developed a feature complete Slack clone using three different platforms, using Kotlin for Android, Swift for IOS, and then a cross platform version using React-Native. Each version had end-to-end testing and full code coverage using Junit, XCTest, and Jest.",
     image: "/images/projects/slack.png",
     tag: ["All", "School"],
-    gitUrl: "/",
-    previewUrl: "n/a",
+    gitUrl: null,
+    previewUrl: null,
   },
   {
     id: 3,
@@ -93,7 +93,7 @@ const projectsData = [
     image: "/images/projects/trivia.png",
     tag: ["All", "Mobile"],
     gitUrl: "https://github.com/mohsley/trivia-app",
-    previewUrl: "n/a",
+    previewUrl: null,
   },
   // {
   //   id: 7,

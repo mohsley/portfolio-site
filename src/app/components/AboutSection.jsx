@@ -6,25 +6,29 @@ import AchievementsSection from "./AchievementsSection";
 
 const TAB_DATA = [
   {
-    title: "Skills",
-    id: "skills",
+    title: "Education",
+    id: "education",
     content: (
-      <ul className="list-disc pl-2">
-        <li>
-          Languages/Skills: C/C++, Parallel Programming, C#, Java, Python,
-          HTML/CSS/JavaScript, Typescript, SQL
-        </li>
-        <br></br>
-        <li>
-          Frameworks: React, React-Native, Next.Js, Node.js, .Net, JUnit, Jest,
-          Material-UI
-        </li>
-        <br></br>
-        <li>
-          Developer Tools: Git, Docker, Bash Unix Terminal, VS Code, Visual
-          Studio, PyCharm, IntelliJ, Android Studio
-        </li>
-      </ul>
+      <dl className="max-w-md divide-y dark:divide-gray-200 divide-black">
+        <div className="flex flex-col pb-3">
+          <dt className="mb-1 text-slate-500 md:text-lg dark:text-primary-400 font-bold">
+            California State University, Los Angeles
+          </dt>
+          <dd className="dark:text-white text-black text-lg font-semibold">
+            M.Sc. Computer
+            Science&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;2024-2026
+          </dd>
+        </div>
+        <div className="flex flex-col py-3">
+          <dt className=" mb-1 text-slate-500 md:text-lg dark:text-primary-400 font-bold">
+            University of California, Santa Cruz
+          </dt>
+          <dd className="dark:text-white text-black text-lg font-semibold">
+            B.Sc. Computer
+            Science&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;2020-2023
+          </dd>
+        </div>
+      </dl>
     ),
   },
   {
@@ -43,7 +47,7 @@ const TAB_DATA = [
         </div>
         <div className="flex flex-col py-3">
           <dt className=" mb-1 text-slate-500 md:text-lg dark:text-primary-400 font-bold">
-            University of Califorina, Santa Cruz
+            University of California, Santa Cruz
           </dt>
           <dd className="dark:text-white text-black text-lg font-semibold">
             B.Sc. Computer
@@ -89,14 +93,20 @@ const AboutSection = () => {
             About Me
           </h2>
           <p className="dark:text-white text-black lg:text-lg">
-            Welcome to my portfolio! <br></br>
-            <br></br>I'm an experienced engineer, currently going through grad
-            school, with a passion for making computers solve problems. I have
-            also dabbled in the field of research, conducting a case study and
-            publishing a paper with my team. <br></br>
-            <br></br>You can view my verstatile experience below. If you're
-            interested in working togetrher, feel free to reach out--you can
-            contact me at the bottom of this page. I look foward to connecting
+            Hello!<br></br>
+            <br></br>I am an experienced engineer currently pursuing a Master's
+            in Computer Science, driven by a deep-seated passion for making
+            computers do things that make our lives easier. <br></br> <br></br>
+            My professional journey includes valuable experience working on
+            Fullstack websites, mobile applications, and multi-threaded
+            distributed applications. <br></br> <br></br> In addition, I
+            contributed to a multi-disciplinary research project funded by the
+            National Science Foundation, conducting a comprehensive case study
+            and contributed to a published paper alongside my esteemed
+            colleagues <br></br>
+            <br></br>You can view my versatile experience below. If you're
+            interested in working together, feel free to reach out--you can
+            contact me at the bottom of this page. I look forward to connecting
             with you.
           </p>
           <div className="text-black dark:text-white flex flex-row justify-start mt-8">

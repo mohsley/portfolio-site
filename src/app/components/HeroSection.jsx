@@ -51,7 +51,8 @@ const HeroSection = () => {
               Hire Me
             </Link>
             <Link
-              href="/"
+              href="/mohamad-saleh-resume.pdf"
+              target="_blank"
               className="px-1 inline-block py-1 w-full sm:w-fit rounded-full  bg-[#64748b] hover:bg-[#94a3b8] dark:bg-primary-600 dark:hover:bg-primary-400 text-white mt-3"
             >
               <span className="block dark:bg-[#18181b] bg-[#18181b] hover: rounded-full px-5 py-2">
