@@ -95,15 +95,16 @@ const AboutSection = () => {
           <p className="dark:text-white text-black lg:text-lg">
             Hello!<br></br>
             <br></br>I am an experienced engineer currently pursuing a Master's
-            in Computer Science, driven by a deep-seated passion for making
-            computers do things that make our lives easier. <br></br> <br></br>
+            in Computer Science at the California State University, Los Angeles.
+            I am driven by a deep-seated passion for making computers do things
+            that make our lives easier. <br></br> <br></br>
             My professional journey includes valuable experience working on
             Fullstack websites, mobile applications, and multi-threaded
             distributed applications. <br></br> <br></br> In addition, I was
-            part of a multi-disciplinary research team funded by the National
-            Science Foundation, where I conducted a thorough case study and
-            collaborated with esteemed colleagues to co-author a paper that was
-            published in the Frontiers of Marine Science journal. <br></br>
+            part of a multi-disciplinary research, where I conducted a thorough
+            case study and collaborated with esteemed colleagues to co-author a
+            paper that was published in the Frontiers of Marine Science journal.{" "}
+            <br></br>
             <br></br>You can view my versatile experience below. If you're
             interested in working together, feel free to reach out--you can
             contact me at the bottom of this page. I look forward to connecting
