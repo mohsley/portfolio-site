@@ -8,8 +8,8 @@ export async function POST(req, res) {
   const { email, subject, message } = await req.json();
   console.log(email, subject, message);
   try {
-    await resend.emails.send();
-    return NextResponse.json();
+    const data = await resend.emails.send();
+    return NextResponse.json(data);
   } catch (error) {
     return NextResponse.json({ error });
   }
