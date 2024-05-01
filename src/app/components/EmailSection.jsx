@@ -11,6 +11,7 @@ const EmailSection = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     const data = {
+      name: e.target.name.value,
       email: e.target.email.value,
       subject: e.target.subject.value,
       message: e.target.message.value,
@@ -54,7 +55,7 @@ const EmailSection = () => {
           I&apos;m currently looking for new opportunities, send me an email and
           I&apos;ll get back to you as soon as possible!
         </p>
-        <div className="socials flex flex-row gap-2 ">
+        <div className="socials flex flex-row gap-2">
           <Link href="https://github.com/mohsley">
             <Image
               className="bg-[#404040] dark:bg-[#18181b]  rounded-full"
@@ -83,7 +84,23 @@ const EmailSection = () => {
                 htmlFor="email"
                 className="dark:text-white block mb-2 text-sm font-medium "
               >
-                Your email
+                Full Name
+              </label>
+              <input
+                name="name"
+                type="name"
+                id="name"
+                required
+                className="bg-[#FFFFFF] border border-[#33353F] placeholder-[#a3a3a3] dark:placeholder-[#9CA2A9] dark:text-white text-black text-sm rounded-lg block w-full p-2.5 dark:bg-[#18181b]"
+                placeholder="Your Name"
+              />
+            </div>
+            <div className="mb-6">
+              <label
+                htmlFor="email"
+                className="dark:text-white block mb-2 text-sm font-medium "
+              >
+                Email Adress
               </label>
               <input
                 name="email"
