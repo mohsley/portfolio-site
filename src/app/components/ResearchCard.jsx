@@ -23,7 +23,7 @@ const ResearchCard = ({
   //     : (setImageMode(imgUrl) = `url(${imgUrl})`);
   return (
     <div className="text-center dark:bg-[#404040] bg-[#e5e7eb] h-full rounded-xl shadow-2xl">
-      <div className="ounded-t-xl">
+      <div className="rounded-t-xl">
         <div
           className="h-52 md:h-72 rounded-t-xl relative group dark:bg-[#404040] p-2"
           style={{ background: `url(${imgUrl})`, backgroundSize: "cover" }}

@@ -6,7 +6,7 @@ import { motion, useInView } from "framer-motion";
 const papersData = [
   {
     id: 1,
-    title: "Demystifying image-based machine learning Research Paper",
+    title: "Demystifying Image-Based Machine Learning",
     description:
       "A review and a practical guide to automated analysis of field imagery using modern machine learning tools. A case study was conducted on object detection of selected marine species from the FathomNet dataset.",
     image: "/images/research/paper1.png",

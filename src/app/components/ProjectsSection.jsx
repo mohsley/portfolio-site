@@ -7,24 +7,24 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 0,
+    title: "Drillpilot",
+    description:
+      "DrillPilot is a comprehensive full-stack web application designed for the oil and gas industry. It specializes in plotting wellbore data in surveys and displaying fracture data, including bird's-eye views, side views, and 3D views. The application features a responsive mobile design, ensuring accessibility on various devices. Additionally, DrillPilot supports importing and exporting Excel files, facilitating seamless data management and analysis.",
+    image: "/images/projects/drillpilot.png",
+    tag: ["All", "Web"],
+    gitUrl: null,
+    previewUrl: "https://drillpilot.sunsab.com/",
+  },
+  {
+    id: 1,
     title: "Personal Portfolio Website",
     description:
-      "My portfolio, built with Next.js and Tailwind CSS. It showcases my work history, projects, and achievements in an elegant and responsive design, as well as dynamic theme switching with the light/dark mode button, and several smooth animations.",
+      "My portfolio, built with Next.js and Tailwind CSS. It showcases my work history, projects, and achievements in an elegant and responsive design, as well as dynamic theme switching with the light/dark mode button, and several smooth animations. It also features an email contact service through Resend.",
     image: "/images/projects/portfolio.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/mohsley/portfolio-site",
     previewUrl: "/",
   },
-  // {
-  //   id: 1,
-  //   title: "Applyotron Job Applying Assistant",
-  //   description:
-  //     "An automated job applying assistant that helps you apply to jobs faster.",
-  //   image: "/images/projects/5.png",
-  //   tag: ["All", "Web"],
-  //   gitUrl: "https://github.com/mohsley/applyotron",
-  //   previewUrl: "n/a",
-  // },
   {
     id: 2,
     title: "AI For Oceans Website",

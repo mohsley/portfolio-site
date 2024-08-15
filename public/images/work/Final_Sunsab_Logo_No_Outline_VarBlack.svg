@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="245mm"
+   height="45mm"
+   viewBox="0 0 195.000004 40"
+   version="1.1"
+   id="svg3719"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="Final_Sunsab_Logo_No_Outline_VarBlack.svg">
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.55999999"
+     inkscape:cx="326.0431906"
+     inkscape:cy="115.9532607"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="2560"
+     inkscape:window-height="1377"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:snap-text-baseline="true"
+     showguides="false"
+     inkscape:showpageshadow="false"
+     showborder="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     units="mm"
+     borderlayer="false"
+     height="10mm" />
+  <metadata
+     id="metadata3716">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Base Logo"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-296.9761705,52.4084197)"
+     style="display:inline">
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.5649999976;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 328.7848812,-49.61411779 a 22.88645619,22.88645619 0 0 0 -22.8399708,21.57282827 h 45.6607857 a 22.88645619,22.88645619 0 0 0 -22.8208149,-21.57282827 z m -22.8053368,24.4568924 a 22.88645619,22.88645619 0 0 0 4.5263329,12.16514464 h 35.391116 v -2.62567205 h 2.8401433 a 22.88645619,22.88645619 0 0 0 2.8458318,-9.53947259 z"
+       id="path6611"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.5833330154px;line-height:1.25;font-family:Teko;-inkscape-font-specification:Teko;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2645833194"
+       x="270.3431091"
+       y="17.11533546"
+       id="text898"><tspan
+         sodipodi:role="line"
+         id="tspan896"
+         x="270.3431091"
+         y="25.51350212"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Teko;-inkscape-font-specification:Teko;stroke-width:0.2645833194" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833330154px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#060606;fill-opacity:1;stroke:none;stroke-width:0.2645833194;"
+       x="357.366394"
+       y="-12.7475071"
+       id="text1488"><tspan
+         sodipodi:role="line"
+         id="tspan1486"
+         x="357.366394"
+         y="-12.7475071"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50.7999992371px;font-family:Teko;-inkscape-font-specification:Teko;stroke-width:0.2645833194;fill:#060606;fill-opacity:1;"><tspan
+           style="fill:#060606;fill-opacity:1;"
+           id="tspan1492"><tspan
+   style="fill:#ffffff;fill-opacity:1"
+   id="tspan4567">sun</tspan>sab</tspan></tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Mountain"
+     style="display:inline"
+     transform="translate(-296.9761705,-447.5915804)">
+    <path
+       style="fill:#0e1011;fill-opacity:1;stroke:#0e1011;stroke-width:0.3087467849px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 346.6726657,487.2512962 h -48.3053373 l 9.5746327,-23.09946 9.0904746,15.68802 6.7906125,-10.32721 8.5414199,14.74041 h 16.3084533 l -0.4144441,0.72185 -0.251314,0.40449 -0.6234381,0.91493 -0.4639606,0.64524 z"
+       id="path1006-8-1"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

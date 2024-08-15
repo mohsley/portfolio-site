@@ -6,7 +6,21 @@ import { motion, useInView } from "framer-motion";
 
 const worksData = [
   {
+    id: 0,
+    title: "Assoicate Software Engineer in Backend",
+    companyName: "Sunsab",
+    dateWorked: "May 2024 – Aug 2024",
+    location: "Remote",
+    description:
+      "At SunSab, I served as a backend engineer, where I played a critical role in developing and maintaining the backend infrastructure for a full-stack web application for use in the oil and gas industry. My responsibilities included deploying a .NET server to manage backend operations, which significantly enhanced data management and processing capabilities. I developed and implemented data serialization methods to ensure efficient data transmission and storage, optimizing the application's performance. In addition to backend development, I utilized Three.js, a geometric graphing library, to plot wellbore data, which greatly improved data visualization for end-users. I was responsible for creating and maintaining RESTful API endpoints, ensuring seamless integration and support for front-end data visualization.",
+    image: "/images/work/sunsab.webp",
+    darkImage: "/images/work/Final_Sunsab_Logo_No_Outline_VarBlack.svg",
+    tag: ["All", "Work"],
+    gitUrl: "n/a",
+    previewUrl: "https://sunsab.com/",
     id: 1,
+  },
+  {
     title: "Undergraduate Software Engineer Research Assistant",
     companyName: "UCSC",
     dateWorked: "June 2021 – Sep 2022",
