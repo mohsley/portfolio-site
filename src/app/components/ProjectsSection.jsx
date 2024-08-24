@@ -13,7 +13,7 @@ const projectsData = [
     image: "/images/projects/drillpilot.png",
     tag: ["All", "Web"],
     gitUrl: null,
-    previewUrl: "https://drillpilot.sunsab.com/",
+    previewUrl: "https://drillpilot.vercel.app/",
   },
   {
     id: 1,
